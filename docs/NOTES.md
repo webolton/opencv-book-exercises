@@ -1,5 +1,9 @@
 # Environment
 
+Activate the environment
+
+    conda activate Python3
+
 - `ipyton` is a Python interactive shell that has more features than the regular interpreter shell.
 
 ## NumPy
