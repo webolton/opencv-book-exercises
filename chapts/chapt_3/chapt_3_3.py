@@ -29,6 +29,8 @@ x_train, x_test, y_train, y_test = model_selection.train_test_split(
 
 lr = cv2.ml.LogisticRegression_create()
 
+lr.get_learnt_thetas()
+
 lr.setTrainMethod(cv2.ml.LogisticRegression_MINI_BATCH)
 lr.setMiniBatchSize(1)
 
