@@ -38,3 +38,8 @@ The ability of the model to not label a cat picture as a dog picture.
 The ability of the classifier to retrieve all the pictures of cats from the pile.
 
 
+## Conventions
+
+It is conventional, apparently, to refer to matrices with capital variable names. This accounts \
+for the fact that a column will have a lowercase y in its variable name like this: \
+(X_train, y_train).
